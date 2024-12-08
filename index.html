@@ -1,97 +1,409 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EcoStore - Sustainable Living</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KelapaLokal</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container-nav">
-      <h1 class="logo">KelapaLokal</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-start">
+                <img src="img/logo.png" alt="" width="40%">
+                
+            </div>
+            <div class="navbar-center">
+                <a href="#" id="utama">Utama</a>
+                <a href="#tentangkami">Tentang</a>
+                <a href="#">Pertanyaan</a>
+                <a href="#produk">Lihat Kreasi</a>
+            </div>
+            <div class="navbar-end">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+
+                <a href="https//wa.me/628998891026">Hubungi kami</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Dari Alam Indonesia, Untuk Kreasi, Ekonomi, dan <span class="highlight">Masa Depan Hijau!</span></h1>
+            <p>
+                KelapaLokal tidak hanya menjual produk, tetapi juga mendukung UMKM dalam menciptakan karya inovatif berbasis kelapa, menciptakan dampak sosial positif, dan membawa hasil kreativitas lokal ke pasar global. 
+            </p>
+            <div class="cta-buttons">
+                <a href="#produk"><button class="btn primary-btn">Jelajahi Kreasi</button></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="img/hero.jpeg" alt="EcoPack Illustration">
+        </div>
     </div>
-  </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container">
-      <h2 class="hero-title">Sustainable Living Starts Here</h2>
-      <p class="hero-description">Discover eco-friendly products made with love for nature and a sustainable future.</p>
-      <a href="#produkk" class="btn">Shop Now</a>
+    <!-- INFO -->
+    <section class="info-section">
+        <div class="info-cards">
+            <div class="card-1">
+                <div class="card-content">
+                    <div class="card-text">
+                        <span class="card-number">Volunteer</span>
+                        <div class="card-avatars">
+                            <img src="img/avatar1.jpg" alt="Avatar 1">
+                            <img src="img/avatar2.jpeg" alt="Avatar 2">
+                            <button class="card-button">+</button>
+                        </div>
+                        
+                        <p class="card-title">Relawan Kelapa Lokal: Aksi Kecil, Dampak Besar</p>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="card-2">
+                <div class="card-content">
+                    <div class="card-text">
+                        <span class="card-number">Crowdfunding</span>
+                        <div class="card-avatars">
+                            <img src="img/avatar2.jpeg" alt="Avatar 3">
+                            <img src="img/avatar2.jpeg" alt="Avatar 4">
+                            <button class="card-button">+</button>
+                        </div>
+                        <p class="card-title">Bersama Kita Kuatkan Ekonomi Lokal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- produk -->
+    <section class="product-section" id="produk">
+        <div class="new-user-card">
+            <h4>Khusus Pengguna Baru</h4>
+            <div class="promo-card">
+                <p>Produk Eksklusif</p>
+                <p>Pengguna Baru*</p>
+                <h1>Disc 80%</h1>
+                <small>*S&K Berlaku</small>
+            </div>
+        </div>
+        <div class="product-list">
+
+            <a href="https://app.midtrans.com/payment-links/1733648182480" class="klikproduk">
+                <div class="product-item">
+                    <img src="/img/produk/produk1.jpg" alt="Helm Bogo">
+                    <div class="product-details">
+                        <span class="promo-label">Lampu Hias</span>
+                        <h3>Lampu Hias Tropis dari Serabut Kelapa - Eco-Friendly dan Artistik</h3>
+                        <p>Rp120.000 <span class="discount">Rp155.000 23%</span></p>
+                        <p class="location">Kota Makassar</p>
+                        <p class="rating">⭐ 4.6 | 90+ terjual</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://app.midtrans.com/payment-links/1733648385539" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk2.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>Tropical CocoBag: Tas Serabut Kelapa dengan Sentuhan Eksotis</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kota Makassar</p>
+                    <p class="rating">⭐ 4.9 | 230+ terjual</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://app.midtrans.com/payment-links/1733648444297" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk3.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>CocoCraft: Tas Estetik dan Ramah Lingkungan dari Serabut Kelapa</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kab. Makassar</p>
+                    <p class="rating">⭐ 4.9 | 150+ terjual</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="https://app.midtrans.com/payment-links/1733648482758" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk4.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>Tas Alam Kelapa: Sentuhan Tradisional dengan Gaya Modern</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kab. Makassar</p>
+                    <p class="rating">⭐ 4.3 | 130+ terjual</p>
+                </div>
+            </div>
+            </a>
+
+        </div>
+    </section>
+
+            <!-- SEMUA PRODUK -->
+    <div class="semuaproduk">
+        <div class="header">
+            <h2>Semua produk kreatif</h2>
+        </div>
     </div>
-  </section>
 
-  <section class="products">
-    <h2 class="section-title" id="produkk">Produk Unggulan</h2>
-    <div class="product-list">
+    <section class="product-section">   
 
-      <div class="product">
-        <img src="img/1.jpg" alt="Produk 1">
-        <h3>Produk 1</h3>
-        <p>Deskripsi singkat tentang produk ini.</p>
-        <p>$12.99</p>
-        <a href="#" class="buy-now">Beli Sekarang</a>
-      </div>
 
-      <div class="product">
-        <img src="img/2.jpg" alt="Produk 2">
-        <h3>Produk 2</h3>
-        <p>Deskripsi singkat tentang produk ini.</p>
-        <p>$12.99</p>
-        <a href="#" class="buy-now">Beli Sekarang</a>
+        <a href="https://app.midtrans.com/payment-links/1733648182480" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk1.jpg" alt="Helm Bogo">
+                <div class="product-details">
+                    <span class="promo-label">Lampu Hias</span>
+                    <h3>Lampu Hias Tropis dari Serabut Kelapa - Eco-Friendly dan Artistik</h3>
+                    <p>Rp120.000 <span class="discount">Rp155.000 23%</span></p>
+                    <p class="location">Kota Makassar</p>
+                    <p class="rating">⭐ 4.6 | 90+ terjual</p>
+                </div>
+            </div>
+        </a>
 
-      </div>
-      <!-- Tambahkan produk lainnya -->
-      <div class="product">
-        <img src="img/3.jpg" alt="Produk 3">
-        <h3>Produk 3</h3>
-        <p>Deskripsi singkat tentang produk ini.</p>
-        <p>$12.99</p>
-        <a href="#" class="buy-now">Beli Sekarang</a>
-      </div>
+        <a href="https://app.midtrans.com/payment-links/1733648385539" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk2.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>Tropical CocoBag: Tas Serabut Kelapa dengan Sentuhan Eksotis</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kota Makassar</p>
+                    <p class="rating">⭐ 4.9 | 230+ terjual</p>
+                </div>
+            </div>
+        </a>
 
-      <div class="product">
-        <img src="img/4.jpg" alt="Produk 4">
-        <h3>Produk 4</h3>
-        <p>Deskripsi singkat tentang produk ini.</p>
-        <p>$12.99</p>
-        <a href="#" class="buy-now">Beli Sekarang</a>
-      </div>
+        <a href="https://app.midtrans.com/payment-links/1733648482758" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk5.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>Tas Alam Kelapa: Sentuhan Tradisional dengan Gaya Modern</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kab. Makassar</p>
+                    <p class="rating">⭐ 4.3 | 130+ terjual</p>
+                </div>
+            </div>
+        </a>
 
-      <div class="product">
-        <img src="img/5.jpg" alt="Produk 5">
-        <h3>Produk 5</h3>
-        <p>Deskripsi singkat tentang produk ini.</p>
-        <p>$12.99</p>
-        <a href="#" class="buy-now">Beli Sekarang</a>
-      </div>
+        <a href="https://app.midtrans.com/payment-links/1733648444297" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk6.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>CocoCraft: Tas Estetik dan Ramah Lingkungan dari Serabut Kelapa</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kab. Makassar</p>
+                    <p class="rating">⭐ 4.9 | 150+ terjual</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://app.midtrans.com/payment-links/1733648182480" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk7.jpg" alt="Helm Bogo">
+                <div class="product-details">
+                    <span class="promo-label">Lampu Hias</span>
+                    <h3>Lampu Hias Tropis dari Serabut Kelapa - Eco-Friendly dan Artistik</h3>
+                    <p>Rp120.000 <span class="discount">Rp155.000 23%</span></p>
+                    <p class="location">Kota Makassar</p>
+                    <p class="rating">⭐ 4.6 | 90+ terjual</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <section class="product-section">
+        <a href="https://app.midtrans.com/payment-links/1733648182480" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk6.jpg" alt="Helm Bogo">
+                <div class="product-details">
+                    <span class="promo-label">Lampu Hias</span>
+                    <h3>Lampu Hias Tropis dari Serabut Kelapa - Eco-Friendly dan Artistik</h3>
+                    <p>Rp120.000 <span class="discount">Rp155.000 23%</span></p>
+                    <p class="location">Kota Makassar</p>
+                    <p class="rating">⭐ 4.6 | 90+ terjual</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://app.midtrans.com/payment-links/1733648385539" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk2.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>Tropical CocoBag: Tas Serabut Kelapa dengan Sentuhan Eksotis</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kota Makassar</p>
+                    <p class="rating">⭐ 4.9 | 230+ terjual</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://app.midtrans.com/payment-links/1733648482758" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk5.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>Tas Alam Kelapa: Sentuhan Tradisional dengan Gaya Modern</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kab. Makassar</p>
+                    <p class="rating">⭐ 4.3 | 130+ terjual</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://app.midtrans.com/payment-links/1733648444297" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk9.jpg" alt="Sepatu Anak">
+                <div class="product-details">
+                    <span class="promo-label purple">Tas Kreatif</span>
+                    <h3>CocoCraft: Tas Estetik dan Ramah Lingkungan dari Serabut Kelapa</h3>
+                    <p>Rp94.990</p>
+                    <p class="location">Kab. Makassar</p>
+                    <p class="rating">⭐ 4.9 | 150+ terjual</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://app.midtrans.com/payment-links/1733648182480" class="klikproduk">
+            <div class="product-item">
+                <img src="/img/produk/produk7.jpg" alt="Helm Bogo">
+                <div class="product-details">
+                    <span class="promo-label">Lampu Hias</span>
+                    <h3>Lampu Hias Tropis dari Serabut Kelapa - Eco-Friendly dan Artistik</h3>
+                    <p>Rp120.000 <span class="discount">Rp155.000 23%</span></p>
+                    <p class="location">Kota Makassar</p>
+                    <p class="rating">⭐ 4.6 | 90+ terjual</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>Dengarkan Cerita dari Pelanggan Kami yang Bahagia</h2>
+        
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <div class="testimonial-icon">
+              <img src="/img/breach.png" alt="Client 1" class="client-photo">
+            </div>
+            <p>"KelapaLokal membantu kami memasarkan kerajinan kelapa ke pasar yang lebih luas, dengan dukungan pelatihan yang sangat bermanfaat."</p>
+            <p>Breach</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-icon">
+              <img src="/img/brimstone.png" alt="Client 2" class="client-photo">
+            </div>
+            <p>"KelapaLokal memungkinkan kami menjual hasil kelapa dengan cara yang lebih menguntungkan dan mudah berkolaborasi dengan pengusaha."</p>
+            <p>Brimstone</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-icon">
+              <img src="/img/jett.jpeg" alt="Client 3" class="client-photo">
+            </div>
+            <p>"KelapaLokal membantu kami memasarkan kerajinan kelapa ke pasar yang lebih luas, dengan dukungan pelatihan yang sangat bermanfaat."</p>
+            <p>- Jett</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section class="about-us" id="tentangkami">
+        <div class="about-container">
+          <div class="about-text">
+            <h2>Tentang Kami</h2>
+            <p>
+              KepalaLokal adalah platform agribisnis yang berfokus pada pemberdayaan petani lokal, khususnya dalam industri kelapa. 
+              Kami menghadirkan solusi inovatif untuk meningkatkan produktivitas, distribusi, dan pemasaran hasil kelapa melalui teknologi.
+            </p>
+            <p>
+              Visi kami adalah menciptakan ekosistem agribisnis yang berkelanjutan, memperkuat ekonomi lokal, dan mendukung keberlanjutan lingkungan.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="img/logo.png" alt="Gambar Tentang Kami">
+          </div>
+        </div>
+    </section>
+
+    <!-- Partnert -->
+    <div class="partnerships">
+        <h3>Kami bangga karena</h3>
+        <h2>Banyaknya Dukungan dari teman-teman dan organisasi Lainnya</h2>
+        <div class="partner-logos">
+            <div class="logo-item" id="kolasejar">
+                <img src="img/kolasejar2.png" alt="Partner 1">
+            </div>
+            <div class="logo-item">
+                <img src="img/mycoco.png" alt="Partner 2">
+            </div>
+            <div class="logo-item">
+                <img src="img/lontara.png" alt="Partner 3">
+            </div>
+            <div class="logo-item">
+                <img src="img/godigital.png" alt="Partner 4">
+            </div>
+        </div>
     </div>
-  </section>
-  
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <h2 class="section-title">About Us</h2>
-      <p>At EcoStore, we believe in a greener future. Our mission is to provide eco-friendly alternatives to everyday products, ensuring a sustainable lifestyle for everyone. Join us in making a difference, one product at a time.</p>
-    </div>
-  </section>
+    
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2024 KelapaLokal. All Rights Reserved.</p>
+    <footer>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Tentang Kami</h3>
+            <ul>
+              <li><a href="#">Visi dan Misi</a></li>
+              <li><a href="#">Cerita Kami</a></li>
+              <li><a href="#">Karir</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Produk</h3>
+            <ul>
+              <li><a href="#">Produk Turunan Kelapa</a></li>
+              <li><a href="#">Menjadi Mitra</a></li>
+              <li><a href="#">Marketplace Lokal</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Media Sosial</h3>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <img src="/img/logo.png" width="100%" alt="KelapaLokal">
+          </div>
+        </div>
+    </footer>   
+    <div class="footer-copyright">
+        <p>&copy; 2024 KepalaLokal. dibuat oleh <a href="https://www.instagram.com/syariffrahmann">Syarif Rahman</a></p>
     </div>
-  </footer>
+      
+
+
+    
+    
+    
+    
 </body>
 </html>
