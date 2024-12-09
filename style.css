@@ -718,6 +718,10 @@ footer {
       padding: 20px; 
   }
 
+   .klikproduk {
+    justify-items: center;
+  }
+
   .card-content {
     background-color: #003918;
   }
